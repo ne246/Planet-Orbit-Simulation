@@ -1,0 +1,77 @@
+gravity is relative to different objects 
+
+all objects are attract to one another, and exert force on each other 
+force they have on one another is based on the mass of the objects (this really matters for heavy objects, like earth)
+
+Earth is super heavy so thats why it exerts a massive force on us that pulls us down towrds the earth 
+what determines this force is the distance between you and earth center, thats why if your in space its 0 gravity because you are further away from earth
+
+
+GRAVITIONAL FORCE:  
+F = GMm/r^2
+
+F = force of gravity
+G = gravitational constant (6.67 x 10^-11)
+M = mass of one objects
+m = mass of other objects
+r = distance between the two objects (expotential because, further you go the less gravity you'll have vice versa)
+
+
+In the sense of this, planets are mutiple masses moving around each other 
+
+
+Earth to Sun Logic: Earth ----> is moving in a x direction (some speed ->)
+                      |
+                      |  force(Gravitional Force) pulling towards the Sun: THIS MAKEs IT CURVE
+                      v
+                     Sun
+
+
+Earth all ready has momentum that move in another direction (X direction)
+
+Other planets attract each other effecting its orbtiral trajectory.
+so that means we need to calculate force of the sun to a planet and the force to a planet to planet
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Caluculating the orbital trajectory:
+
+step 1: Find r and use it find F
+
+                    Earth           we want to move this in to x direction and y direction
+                      /            
+               F    /  |
+                  /    | y
+                /      |
+              /________|
+            Sun    x
+
+step 2:
+
+                    Earth          Find distance r 
+                      /            x = (x,y)
+               r    /  |           y = (x1, y1)
+                  /    | y         r = root(x^2 + y^2)
+                /      |        
+              /________|
+            Sun    x
+
+step 3:
+
+                    Earth          Use r to find F
+                      /            F = GMm/r^2
+               F    /  |           
+                  /    | y        
+                /      |
+              /________|
+            Sun    x
+
+step 3: Find the oppisite direction from the force back to x and y componenets
+                                   
+                     Earth          Find theatha to find Fy and Fx = arc(tangent) or tan^-1(y/x)
+                      /  |          tan(theatha) = y/x (o/a)       tan^-1(y/x) = thetha
+               F    /    |          
+                  /      | Fy       Then,
+                /        |          SOH CAH TOA
+              /__theatha_|          sin(theatha) = o/h = Fy/F  -> F * sin(theatha) = Fy
+            Sun    Fx               cos(theatha) = o/h = Fx/F  -> F * cos(theatha) = Fx
