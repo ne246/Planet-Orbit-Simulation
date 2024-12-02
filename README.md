@@ -1,0 +1,3 @@
+This project is a visually and physically accurate simulation of the inner planets—Earth, Mars, Venus, and Mercury—orbiting around the Sun, built using Python and Pygame. The simulation applies Newton's Law of Gravitation to calculate realistic orbital paths, determining each planet's position, velocity, and acceleration over time. Each planet's orbit is represented with color-coded trails and scaled distances for a clear and engaging visual experience. The interactive design features smooth animations and user-friendly controls, offering an intuitive way to explore gravitational physics and planetary motion. 
+
+![Screenshot 2024-12-01 172742](https://github.com/user-attachments/assets/4d14945e-71a1-4443-92fb-2f892f57da48)
